@@ -49,8 +49,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         chartView.lowerLimit = getCGFloat(str: tfLowerLimit.text!);
         chartView.currentValue = getCGFloat(str: tfCurrentValue.text!);
         
-        chartView.setNeedsDisplay();
-        
+        chartView.setNeedsDisplay();        
     }
     
     func getCGFloat(str: String) -> CGFloat{
